@@ -9,10 +9,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Banner/>
-      <Blogs/>
-      <Registration/>
+      <Navbar />
+      <Banner />
+      <Blogs />
+      <Registration />
     </div>
   );
 }
