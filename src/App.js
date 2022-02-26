@@ -4,6 +4,7 @@ import Banner from './Components/Banner/Banner';
 import Blogs from './Components/Blogs/Blogs';
 import Navbar from './Components/Navbar/Navbar';
 import Registration from './Components/Registration/Registration';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (

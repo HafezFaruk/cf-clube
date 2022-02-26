@@ -1,16 +1,12 @@
 .banner_section {
   background-image: url("../../images/logo2.png");
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  padding: 100px 0;
+  padding: 240px 0;
+  padding-left: 30px;
 }
-.banner_parent {
-  height: 45rem;
-  align-items: center;
-  display: flex;
-  padding-left: 120px;
-}
+
 .banner_parent h1,
 p {
   font-family: "Roboto Serif", sans-serif;

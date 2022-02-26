@@ -2,20 +2,23 @@ import React from "react";
 import "./Banner.css";
 const Banner = () => {
   return (
-    <div className="banner_section">
-        <div className="banner_parent">
+    <div className="banner_section ">
+      <div className="row banner_parent container">
+        <div className="col row-col-md-5 row-col-lg-5">
+          <div>
             <div>
-            <h1 className="text-white">
-              Egestas Faucibus est ac a pretium <br /> aliquam feugiat.
-            </h1>
-            <p className="text-white">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam cupiditate sequi non deleniti temporibus velit ipsum quas, <br/>  commodi laudantium, inventore sunt dicta quia id natus, ab sapiente perspiciatis quasi quisquam.
-              Pariatur cum expedita animi <br/>  enim  ab voluptatum ea, dolorem eaque omnis quibusdam unde ratione nihil doloribus consequatur mollitia ut qui. Vero <br/>  maiores totam architecto optio voluptate aliquid sunt, atque et?
-            </p>
-            <button className="btn btn_text">JOIN NOW</button>
+              <h3 className="text-white">Egestas faucibus est ac a pretium</h3>
+              <h3 className="text-white">aliquam feugiat.</h3>
+              <p className="text-white">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam
+                cupiditate sequi non deleniti temporibus velit ipsum 
+              </p>
+              <button className="btn btn_text">JOIN NOW</button>
             </div>
-            
+          </div>
         </div>
+        <col className="col row-col-md-7 row-col-lg-7"></col>
+      </div>
     </div>
   );
 };

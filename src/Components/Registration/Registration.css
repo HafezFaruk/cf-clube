@@ -1,21 +1,15 @@
-.registration_section {
-  padding: 100px 0;
-}
-.image {
-  width: 619px;
-  height: 561px;
-  margin: 0;
-  float: right;
-}
+
+
 .registred_text {
   width: 117%;
   height: 84%;
-  margin-left: 178px;
   font-family: "Roboto Serif", sans-serif;
-  padding: 40px;
   left: 0px;
   margin-top: 51px;
   background: #f5f5f5;
+}
+.card{
+  background: transparent;
 }
 .registred_text_role {
   display: flex;
@@ -28,9 +22,10 @@
   background: #8dc63e;
   border-radius: 50%;
 }
+.pc_img{
+  padding: 0;
+}
 .btn_text_2 {
-  width: 187px;
-  height: 54px;
   left: 52px;
   top: 424px;
   font-size: 22px;
